@@ -1,0 +1,90 @@
+.login-popup {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+}
+
+.login-popup-container {
+    place-self: center;
+    width: max(30vw, 330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #302f2f;
+    font-size: x-large;
+}
+
+.login-popup-title img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-inputs input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+/* Remove the blue outline on focus */
+.login-popup-inputs input:focus {
+    outline: none !important; /* Ensure the outline is removed */
+    border-color: #14a76c; /* Customize the border color */
+    box-shadow: 0 0 5px rgba(20, 167, 108, 0.5); /* Optional: add a custom focus shadow */
+}
+
+.login-popup-container button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #14a76c;
+    color: #302f2f;
+    font-weight: 500;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.login-popup-container button:hover {
+    background-color: #0e794b; /* Add a hover effect for the button */
+}
+
+.login-popup-condition {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -10px;
+}
+
+.login-popup-condition input {
+    margin-top: 3px;
+    accent-color: #14a76c;
+    cursor: pointer;
+}
+
+.login-popup p span {
+    color: #14a76c;
+    font-weight: 500;
+    cursor: pointer;
+}

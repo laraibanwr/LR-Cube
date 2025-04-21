@@ -1,0 +1,148 @@
+.product-details {
+    position: relative;
+}
+  
+.product-details img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+  
+.desc {
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    left: 40vw;
+    font-size: 2.7vw;
+    padding: 10px;
+    max-width: 700px;
+    font-weight: 500;
+    color: #555;
+}
+
+.name-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name-rating h1 {
+    font-size: 3vw;
+    color: #555;
+    display: flex;
+}
+
+.product-details .price {
+    margin-top: 10px;
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: #14a76c; 
+}
+
+.price-unit {
+    font-size: 0.7em;
+    color: gray;
+}
+
+.name-rating img {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    left: 225px;
+    bottom: 45px;
+}
+
+.num-rating {
+    display: flex;
+}
+
+.num-rating {
+    position: absolute;
+    left: 305px;
+    bottom: 317px;
+    font-size: x-large;
+    font-weight: 400;
+    color: rgb(121, 117, 117);
+}
+
+.num-rating span {
+    color: #14a76c;
+    font-size: larger;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.date form {
+    position: absolute;
+    top: 120px;
+    right: 250px;
+    left: 50vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    place-self: center;
+    width: max(40vw, 330px);
+    height: max(33vw, 330px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 15px;
+}
+
+.date form .title {
+    font-size: 3vw;
+    font-weight: 500;
+    color: #808080;
+}
+
+.date form input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.date form button {
+    padding-top: 10px;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #14a76c;
+    color: #302f2f;
+    font-weight: 500;
+    font-size: 1.5em;
+    width: 48%;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.date form button:hover {
+    background-color: #12a15c;
+    color: whitesmoke;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+}
+
+.about p {
+    font-size: 1.7vw;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    margin-top: 20px;
+    font-size: 2.2vw;
+    color: #555;
+}
